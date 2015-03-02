@@ -1,3 +1,7 @@
+# Comments by Mark A. Yoder
+# Looks good.
+# Grade:  25/25
+#########################################
 # Lab02
 To: Mark A. Yoder
 

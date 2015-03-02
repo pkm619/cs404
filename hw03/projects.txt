@@ -1,3 +1,9 @@
+# Comments by Mark A. Yoder
+# Thanks for the project ideas
+# I don't see you name on the gitLearn and gitLearnFork files.
+# Grade:  20/25
+#################################
+
 TO : MARK A. YODER
 
 FROM : TEAM 11 (PUSHPENDRA KUMAR , ANKUR SARDAR)
