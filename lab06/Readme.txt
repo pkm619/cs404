@@ -1,3 +1,16 @@
+#Comment from Mark A. Yoder
+
+# Demo       5
+# ReadMe.txt 5
+# Fritzing   0 - Bonus
+# Code       5 - Looks like other's code
+
+
+Grade:  15/25
+
+================================================
+
+
 To: Mark A Yoder
 
 
@@ -7,10 +20,11 @@ Date: 23rd September, 2015
 
 Subject: Lab 06 
 
-The goals of this lab are
+
+The goals of this lab are
 
 1.Interface an analog joystick.
-2.If you have done the LED Matrix lab, have the joystick control your Etch­a­Sketch. 
+2.If you have done the LED Matrix lab, have the joystick control your Etchï¿½aï¿½Sketch. 
 If not,have it control the brightness of two LEDs.
 3.Interface a Rotary Encoder.
 
