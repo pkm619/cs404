@@ -1,7 +1,7 @@
 var b = require('bonescript');
 
-var outputs = ["USR0", "USR1", "USR2", "USR3", "P9_11", "P9_13", "P9_15", "P9_17"];
-var inputs = ["P8_7", "P8_9", "P8_11", "P8_13"];
+var outputs = ["USR0", "USR1", "USR2", "USR3", "P9_11", "P9_13", "P9_15", "P9_17", "P9_23"];
+var inputs = ["P8_7", "P8_9", "P8_11", "P8_13", "P8_15"];
 
 var gridSize=10;
 
@@ -12,7 +12,7 @@ for (var i = 0; i < gridSize; i++) {
 
 for (var i = 0; i < gridSize; i++) {
   for (var j = 0; j < gridSize; j++){
-      x[i][j] =' ';;  
+      x[i][j] =' ';
   }
 }
 
@@ -55,6 +55,7 @@ function check(){
     b.digitalRead(inputs[1], checkButton1);
     b.digitalRead(inputs[2], checkButton2);
     b.digitalRead(inputs[3], checkButton3);
+    b.digitalRead(inputs[4], checkButton4);
 }
 
 
@@ -128,3 +129,32 @@ function checkButton3(d) {
     b.digitalWrite(outputs[3], b.LOW);
   }
 }
+
+function checkButton4(y) {
+  if(y.value == 1){
+    b.digitalWrite(outputs[8], b.HIGH);
+    b.digitalWrite(outputs[0], b.HIGH);
+    b.digitalWrite(outputs[1], b.HIGH);
+    b.digitalWrite(outputs[2], b.HIGH);
+    b.digitalWrite(outputs[3], b.HIGH);
+    for (var i = 0; i < gridSize; i++) {
+      for (var j = 0; j < gridSize; j++){
+        x[i][j] =' ';
+      }
+    }
+    m=0;
+    n=0;
+    x[m][n]='0';
+    gridPrint();
+  }
+  else{
+    b.digitalWrite(outputs[8], b.LOW);
+    b.digitalWrite(outputs[0], b.LOW);
+    b.digitalWrite(outputs[1], b.LOW);
+    b.digitalWrite(outputs[2], b.LOW);
+    b.digitalWrite(outputs[3], b.LOW);
+  }
+}
+
+
+
