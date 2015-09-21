@@ -1,39 +1,3 @@
-# Lab02
-To: Mark A. Yoder
-
-
-
-From : Pushpendra Kumar Meena 
-
-
-
-Date: 21/09/15
-
-
-Sub: ReadMe text file for lab02
-  
-
-Team 11: Pushpendra Kumar Meena (B13132)
-         
-         Ankur Sardar (B13108)
-         
-
-
-So in this lab added our names in repository.
-
-In another experiment we read the switches and flashes the ledfrom bone script and command line.
-
-Later on  we installed fritznig in our systems.
-
-
-So basically we learnt to add our name in repo and cotrolling a led with the help of beagelbone.
- We also do some changes 
-like blinking the leds simultaneously, pressing one switch blinks an LED 10 times and then stops.  
-
-
-
-
-Documantaion of CODE:
 var b = require('bonescript');
 
 var state = b.LOW;
@@ -68,4 +32,3 @@ function checkButton(x) {
     b.digitalWrite("P9_13", b.HIGH);
   }
 }
-

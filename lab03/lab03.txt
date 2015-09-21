@@ -16,25 +16,5 @@ In lab 03 we use two LED's for following pusrpose:
 4. Then we use fiddle to saw our code and make some changes in our code like we get 
 values of potentiometer and a button on screen to turn off and on the LED's.
 
-CODE FOR blinking an led:
+CODE FOR blinking an led:PFA
 
-var b = require('bonescript');
-
-var leds = ["USR0", "USR1", "USR2", "USR3", "P9_14"];
-
-for(var i in leds) {
- b.pinMode(leds[i], b.OUTPUT); 
-}
-
-var state = b.LOW; for(var i in leds) {
- b.digitalWrite(leds[i], state); 
-}
-
-setInterval(toggle, 1000);
-
-function toggle() {
- if(state == b.LOW) state = b.HIGH;
- else state = b.LOW; for(var i in leds) { 
-b.digitalWrite(leds[i], state); 
-} 
-}
