@@ -1,0 +1,49 @@
+HTML CODE:<h1>BoneScript jQuery Demo</h1>
+
+<p>sliderStatus = <span id="sliderStatus">­</span>
+
+</p>
+
+<p>buttonStatus = <span id="buttonStatus">­</span>
+
+</p>
+
+
+
+
+
+
+JAVASCRIPT CODE:
+
+setTargetAddress('192.168.7.2', {
+
+initialized: run
+
+});
+var b = require('bonescript');
+var SLIDER = 'P9_36';
+var BUTTON = 'P9_18';
+
+b.pinMode(BUTTON, b.INPUT);
+getSliderStatus();
+function getSliderStatus() {
+b.analogRead(SLIDER, onSliderRead);
+}
+
+function onSliderRead(x) {
+if (!x.err) {
+}
+
+getButtonStatus()
+}
+
+function getButtonStatus() {
+b.digitalRead(BUTTON, onButtonRead);
+}
+
+function onButtonRead(x) {
+if (!x.err) {
+}
+
+setTimeout(getSliderStatus, 200);
+}

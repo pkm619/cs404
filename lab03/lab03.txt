@@ -16,5 +16,6 @@ In lab 03 we use two LED's for following pusrpose:
 4. Then we use fiddle to saw our code and make some changes in our code like we get 
 values of potentiometer and a button on screen to turn off and on the LED's.
 
-CODE FOR blinking an led:PFA
+CODE FOR blinking an led:Please Find Attached
+CODE FOR controlling led using JSFIDDLE:Please Find Attached
 
