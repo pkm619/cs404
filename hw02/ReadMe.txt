@@ -1,3 +1,7 @@
+# Comments by Mark A. Yoder
+# I don't see you code for the etch-a-sketch controlled by buttons.
+# Grade:  20/25
+
 #Homework 02
 
 To : Mark A. Yoder
