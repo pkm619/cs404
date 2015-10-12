@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Team 11
 
 Name : Pushpendra Kumar
@@ -5,3 +6,5 @@ Name : Pushpendra Kumar
 Roll NO. : B13132
 
 Branch : EE
+=======
+
