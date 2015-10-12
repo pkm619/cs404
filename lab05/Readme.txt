@@ -1,3 +1,12 @@
+#Comment from Mark A. Yoder
+# ReadMe needs more details
+# I look forward to seeing your demo.
+
+# Code       0  - Code is identical to another team's code.  Since I haven't see you in the last
+#                   three labs I assume this is someone else's work.
+
+Grade:  0/25
+
 TO : Mark A. Yoder
 
 From: Team 11 Pushpendra Kumar (B13132) Ankur Sardar (B13108)
@@ -11,6 +20,7 @@ The goals of this lab are
 1.Interface multiple types of sensors to the Bone.
 2.Compare the sensors for range and accuracy.
 
+<<<<<<< HEAD
 For this purpose we used Ultrasonic Range Finder ­ XL­MaxSonar­EZ1 sensor.
 
 The sensors work on the 
@@ -35,3 +45,6 @@ from the source is calculated Ultrasonic sensor Reading.
 	The ultrasonic sensor has two cylinder like objects attached to them. One sends the wave while the other recieves the reflected wave. When Input is given to the trigger pin, a wave is sent and when the wave is recieved back, the echo pin is given logic 1 and input is given to the Beaglebone.Based on time difference, hte distance is calculated.
 	
 	This lab gave a broad overview of range sensors and their applications and working.
+=======
+For this purpose we used Ultrasonic Range Finder ï¿½ XLï¿½MaxSonarï¿½EZ1 sensor.
+>>>>>>> 597b1cc96cfc9d11266d58ff01ab1ed839bb3e78

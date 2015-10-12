@@ -1,4 +1,12 @@
-TO : Mark A. Yoder
+Comments from Mark A. Yoder
+Nice variations on the basic matrixLED code.
+I don't see the fade in/out code.
+I'm looking forward to seeing your demo.
+Late:  -2
+
+Grade: 18/25
+
+ : Mark A. Yoder
 
 From: Team 11 Pushpendra Kumar (B13132) Ankur Sardar (B13108)
 
