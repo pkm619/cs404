@@ -1,0 +1,4 @@
+root@beaglebone:/var/log# tail -f kern.log
+------------- Old text has been deleted------------------------
+Oct 13 13:16:09 beaglebone kernel: [  384.719326] EBB: Hello world from the BBB LKM! ; ALREADY PRESENT IN hello.c
+Oct 13 13:16:09 beaglebone kernel: [  384.719373] EBB: addr IIT from the BBB LKM!    ; NEW PARAMTER ADDED IN hello2.c
