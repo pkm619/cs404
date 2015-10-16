@@ -1,3 +1,15 @@
+# Comments from Mark A. Yoder
+
+5   hello2.c
+4   Makefile - miss-named
+5   Text from /var/log/kern.log
+5   ReadMe.txt
+5   Not Late
+
+Grade 24/25
+
+------------------------------------------------
+
 To: Mark.A.Yoder
 
 From: Pushpendra Kumar Meena (B13132)
