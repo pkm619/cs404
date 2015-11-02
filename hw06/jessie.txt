@@ -1,0 +1,20 @@
+/* 
+From: Pushpendra Kumar	
+
+Date:02/11/15
+
+To: Mark A. Yoder
+*/
+
+Current stable version is Debian 8, 
+
+Jessie 
+Current testing version is Strech
+
+Current unstable version is Sid
+
+Currently 26554 packages are installed.
+I used apt-cache.
+Ran apt-get update
+Could not figure out how to install htop.
+
